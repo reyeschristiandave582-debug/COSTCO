@@ -26,7 +26,7 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[240px] sm:w-full h-[46px] sm:h-[56px] bg-gradient-to-r from-[#005dab] via-[#707070] to-[#005dab] hover:from-[#4d4d4d] hover:via-[#616161] hover:to-[#4d4d4d] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_6px_25px_rgba(0,0,0,0.35)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline border border-white/20"
+        className="group relative w-[240px] sm:w-full h-[46px] sm:h-[56px] bg-[#005dab] hover:bg-[#004a88] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_6px_25px_rgba(0,93,171,0.35)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline border border-white/20"
       >
         {/* Shine Animation Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
@@ -52,8 +52,8 @@ export default function CTAButton() {
         (No purchase required - Eligibility and reward terms apply)
       </p>
 
-      {/* Subtle bottom glow */}
-      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-3/4 h-8 bg-black/15 blur-2xl -z-10 rounded-full opacity-60 pointer-events-none" />
+      {/* Subtle bottom glow adjusted to match blue theme */}
+      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-3/4 h-8 bg-[#005dab]/25 blur-2xl -z-10 rounded-full opacity-60 pointer-events-none" />
     </div>
   );
 }
