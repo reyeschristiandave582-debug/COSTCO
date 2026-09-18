@@ -33,7 +33,7 @@ const AnimatedBackground = () => {
       {/* Image Overlays (PNG graphics from Imgur) */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15 z-1">
           <Image
-            src="https://i.imgur.com/jHW6gwI.png"
+            src="https://i.imgur.com/NyuhH3h.png"
             alt=""
             width={100}
             height={100}
@@ -41,7 +41,7 @@ const AnimatedBackground = () => {
             className="absolute top-20 left-10 w-17 h-17 object-contain animate-float-gentle delay-1000"
           />
           <Image
-            src="https://i.imgur.com/daAxfJh.png"
+            src="https://i.imgur.com/6fL6UZG.png"
             alt=""
             width={160}
             height={160}
@@ -49,7 +49,7 @@ const AnimatedBackground = () => {
             className="absolute top-32 right-10 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/jYKM4nn.png"
+            src="https://i.imgur.com/S5HbyMs.png"
             alt=""
             width={160}
             height={160}
@@ -58,7 +58,7 @@ const AnimatedBackground = () => {
           />
           {/* Changed top-1/1 to top-[85%] to prevent overflow issues */}
           <Image
-            src="https://i.imgur.com/rYjjYNC.png"
+            src="https://i.imgur.com/cs4lokH.png"
             alt=""
             width={160}
             height={160}
@@ -66,7 +66,7 @@ const AnimatedBackground = () => {
             className="absolute top-[85%] right-24 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/laPXAru.png"
+            src="https://i.imgur.com/Fs4N6c5.png"
             alt=""
             width={160}
             height={160}
@@ -74,7 +74,7 @@ const AnimatedBackground = () => {
             className="absolute bottom-40 left-16 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/2QMVnFN.png"
+            src="https://i.imgur.com/AD45qGW.png"
             alt=""
             width={80}
             height={80}
