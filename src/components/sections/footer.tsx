@@ -1,13 +1,13 @@
 "use client";
 
 import React from 'react';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Pin } from 'lucide-react';
 
 /**
- * Footer Component (Costco Edition)
+ * Footer Component (Target Edition)
  * 
- * Clean compliance footer featuring social media badges, standard legal links, 
- * and copyright information optimized for mobile viewports.
+ * Target-styled compliance footer featuring social media badges, 
+ * standard legal links, and copyright info with clean neutral gray typography.
  */
 const Footer = () => {
   return (
@@ -15,31 +15,40 @@ const Footer = () => {
       {/* Social Media Icons */}
       <div className="flex items-center justify-center gap-2 mb-3">
         <a 
-          href="https://www.facebook.com/Costco/" 
+          href="https://www.facebook.com/target" 
           target="_blank"
           rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#004a88] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
+          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
           aria-label="Facebook"
         >
           <Facebook className="w-3.5 h-3.5 fill-current" />
         </a>
         <a 
-          href="https://www.instagram.com/costco/?hl=en"
+          href="https://www.instagram.com/target"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#004a88] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
+          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
           aria-label="Instagram"
         >
           <Instagram className="w-3.5 h-3.5" />
         </a>
         <a 
-          href="https://www.linkedin.com/company/costco-wholesale" 
+          href="https://twitter.com/target" 
           target="_blank"
           rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#004a88] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
-          aria-label="LinkedIn"
+          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
+          aria-label="Twitter"
         >
-          <Linkedin className="w-3.5 h-3.5 fill-current" />
+          <Twitter className="w-3.5 h-3.5 fill-current" />
+        </a>
+        <a 
+          href="https://www.pinterest.com/target" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
+          aria-label="Pinterest"
+        >
+          <Pin className="w-3.5 h-3.5 fill-current" />
         </a>
       </div>
 
@@ -47,21 +56,21 @@ const Footer = () => {
       <div className="flex items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-gray-500 mb-2.5">
         <a 
           href="#privacy" 
-          className="hover:text-[#005dab] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
         >
           Privacy Policy
         </a>
         <span className="text-gray-300">•</span>
         <a 
           href="#terms" 
-          className="hover:text-[#005dab] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
         >
           Terms & Conditions
         </a>
         <span className="text-gray-300">•</span>
         <a 
           href="#contact" 
-          className="hover:text-[#005dab] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
         >
           Contact Us
         </a>
