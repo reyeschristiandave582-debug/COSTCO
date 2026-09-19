@@ -21,17 +21,12 @@ const steps: Step[] = [
   },
   {
     number: 3,
-    title: "Complete the short survey",
-    subtitle: "Answer a few quick questions",
+    title: "Complete short survey & deals",
+    subtitle: "Answer quick questions & complete required offers",
   },
   {
     number: 4,
-    title: "Review available partner offers",
-    subtitle: "Complete 3 to 5 required deals",
-  },
-  {
-    number: 5,
-    title: "Check your reward eligibility",
+    title: "Claim your reward",
     subtitle: "Receive your $750 Costco reward once verified",
   },
 ];
@@ -39,7 +34,7 @@ const steps: Step[] = [
 /**
  * InstructionSteps Component (Costco Edition)
  * 
- * Clean 5-step instructions card styled with Costco Blue accents (#005dab), 
+ * Clean 4-step instructions card styled with Costco Blue accents (#005dab), 
  * dynamic numbered badges, and structured titles with subtext for high clarity.
  */
 export default function InstructionSteps() {
