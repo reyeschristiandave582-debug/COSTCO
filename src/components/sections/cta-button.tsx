@@ -29,7 +29,7 @@ export default function CTAButton() {
         className="group relative w-full h-[52px] sm:h-[58px] bg-[#005dab] hover:bg-[#004a88] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_10px_25px_rgba(0,93,171,0.4)] hover:shadow-[0_12px_30px_rgba(0,93,171,0.5)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline border border-white/20 animate-pulse"
       >
         {/* Continuous Shine Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
 
         <div className="flex items-center justify-center gap-2.5 sm:gap-3 relative z-10">
           <Star 
