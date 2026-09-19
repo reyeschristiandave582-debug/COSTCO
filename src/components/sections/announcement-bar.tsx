@@ -108,13 +108,13 @@ export default function AnnouncementBar() {
         </div>
       </div>
 
-      {/* Floating Social Proof Toast - Updated to bottom-2 to avoid covering CTA button */}
+      {/* Floating Social Proof Toast - Anchored top below banner so it never covers bottom CTA button */}
       {currentNotif && (
         <div
-          className={`fixed bottom-2 sm:bottom-3 left-3 right-3 sm:left-4 sm:right-auto z-[9999] max-w-[340px] mx-auto sm:mx-0 flex items-center gap-2 rounded-full border border-gray-200/90 bg-white/98 backdrop-blur-md px-3 py-1.5 shadow-md overflow-hidden transition-all duration-300 ease-in-out pointer-events-none ${
+          className={`fixed top-14 left-3 right-3 sm:left-4 sm:right-auto z-[9999] max-w-[340px] mx-auto sm:mx-0 flex items-center gap-2 rounded-full border border-gray-200/90 bg-white/98 backdrop-blur-md px-3 py-1.5 shadow-md overflow-hidden transition-all duration-300 ease-in-out pointer-events-none ${
             isVisible
               ? "translate-y-0 opacity-100"
-              : "translate-y-3 opacity-0"
+              : "-translate-y-3 opacity-0"
           }`}
         >
           <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#005dab] text-white">
