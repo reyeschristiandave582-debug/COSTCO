@@ -1,76 +1,35 @@
 "use client";
 
 import React from 'react';
-import { Facebook, Instagram, Twitter, Pin } from 'lucide-react';
 
 /**
- * Footer Component (Target Edition)
+ * Footer Component
  * 
- * Target-styled compliance footer featuring social media badges, 
- * standard legal links, and copyright info with clean neutral gray typography.
+ * Minimalist compliance footer featuring standard legal links 
+ * and copyright information.
  */
 const Footer = () => {
   return (
     <footer className="relative z-10 w-full max-w-[512px] mx-auto px-4 pt-0 pb-16 mt-6 text-center">
-      {/* Social Media Icons */}
-      <div className="flex items-center justify-center gap-2 mb-3">
-        <a 
-          href="https://www.facebook.com/target" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
-          aria-label="Facebook"
-        >
-          <Facebook className="w-3.5 h-3.5 fill-current" />
-        </a>
-        <a 
-          href="https://www.instagram.com/target"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
-          aria-label="Instagram"
-        >
-          <Instagram className="w-3.5 h-3.5" />
-        </a>
-        <a 
-          href="https://twitter.com/target" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
-          aria-label="Twitter"
-        >
-          <Twitter className="w-3.5 h-3.5 fill-current" />
-        </a>
-        <a 
-          href="https://www.pinterest.com/target" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-7 h-7 rounded-full bg-[#CC0000] hover:bg-[#B30000] flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-sm"
-          aria-label="Pinterest"
-        >
-          <Pin className="w-3.5 h-3.5 fill-current" />
-        </a>
-      </div>
-
       {/* Standard Legal & Compliance Links */}
-      <div className="flex items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-gray-500 mb-2.5">
+      <div className="flex items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-gray-500 mb-3">
         <a 
           href="#privacy" 
-          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-gray-900 transition-colors underline-offset-2 hover:underline"
         >
           Privacy Policy
         </a>
         <span className="text-gray-300">•</span>
         <a 
           href="#terms" 
-          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-gray-900 transition-colors underline-offset-2 hover:underline"
         >
           Terms & Conditions
         </a>
         <span className="text-gray-300">•</span>
         <a 
           href="#contact" 
-          className="hover:text-[#CC0000] transition-colors underline-offset-2 hover:underline"
+          className="hover:text-gray-900 transition-colors underline-offset-2 hover:underline"
         >
           Contact Us
         </a>
